@@ -425,8 +425,8 @@ def split_data(data,labels,proportion=0.7):
 
 ### 3.2 引入word2vec模型
 
-word2vec模型下载地址：https://github.com/Embedding/Chinese-Word-Vectors。
-本项目使用的是用中文维基百科作为语料训练的词向量模型，词向量维度为300。
+word2vec模型下载地址：https://github.com/Embedding/Chinese-Word-Vectors
+。本项目使用的是用中文维基百科作为语料训练的词向量模型，词向量维度为300。
 
 ```python
 myPath = 'sgns.wiki.word' # 本地词向量的地址
